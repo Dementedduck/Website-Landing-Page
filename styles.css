@@ -1,6 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .hlinks,
@@ -73,31 +76,33 @@ body {
   font-weight: bold;
 }
 
+
 .infocontain,
 .subcontain {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .info {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
   flex-grow: 0;
   width: 75vw;
   height: auto;
 }
 
-
 .infoheader {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
-  padding: 10px;
+  padding: 10px 10px 20px;
   display: flex;
   justify-content: center;
-}
 
+}
 
 #Duck1,
 #Duck2,
@@ -116,12 +121,32 @@ body {
   height: 200;
 }
 
-
 .infosubtext {
   display: flex;
   justify-content: space-evenly;
   color: #1f2937;
   font-weight: 350;
   width: 75vw;
+  padding-bottom: 60px;
 }
 
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: 290;
+  color: #1f2937;
+  padding: 100px;
+}
+
+.inspiration {
+  display: flex;
+  justify-content: center;
+}
+
+.harlan {
+  font-weight: bolder;
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 200px;
+}
