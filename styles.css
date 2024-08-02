@@ -47,7 +47,7 @@ body {
 .hero {
     display: flex;
     padding: 100px;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 
@@ -65,10 +65,37 @@ body {
     width: 400px;
     height: 200px;
     order: 3;
+    margin-left: 70px;
+    border-radius: 10px;
 }
 
 
 .logo {
   font-size: 24px;
   font-weight: bold;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.infoheader {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  padding: 10px
+}
+
+.infoimages img {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+#Duck1, 
+#Duck2, 
+#Duck3 {
+  margin-right: 40px;
 }
