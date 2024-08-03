@@ -54,6 +54,7 @@ body {
   justify-content: center;
 }
 
+
 .button {
   background-color: #3882f6;
   border: none;
@@ -149,4 +150,48 @@ body {
   display: flex;
   justify-content: flex-end;
   margin-right: 200px;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  flex-basis: 100%;
+  
+}
+
+.callcontain {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.containback {
+  background-color: #3882f6;
+  padding: 50px;
+  width: 40vw;
+  border-radius: 30px;
+}
+
+.callmid {
+  display: flex;
+  gap: 50px;
+  color: #e5e7eb;
+}
+
+.calltop {
+  color: #e5e7eb;
+  font-size: large;
+  font-weight: bolder;
+  padding-bottom: 5px;
+}
+
+.buttoncall {
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border-color: #e5e7eb;
+  margin-top: -4%;
+  border-radius: 10px;
 }
